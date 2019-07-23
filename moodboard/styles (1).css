@@ -1,0 +1,44 @@
+#container {
+    position: relative;
+    height:100%;
+}
+body {
+    background:	#6495ED;
+}
+    img {
+    height: 200px;
+}
+/*.level { text-align : center;
+    color:white;
+    font-family: courier new;
+}
+.wack {
+padding-left:20px;
+    padding-top: 20px;
+color: white;
+font-family:courier new;}
+
+.better{ 
+color: white; 
+}
+
+.music { font-size: 20px;
+color: white;
+font-family: courier new;
+}
+
+.poptart { padding-left:20px;
+    padding-top: 20px;
+color: white;
+font-family:courier new;
+}
+
+.hungry { 
+    color:white;
+}
+
+.cool { 
+    font-size: 20px;
+color: white;
+font-family: courier new;
+}*/

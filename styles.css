@@ -1,4 +1,3 @@
-
 body{
 background-color: #F8F8FF;
 font-family: FreeMono, monospace;
@@ -79,4 +78,73 @@ color: 	#ADD8E6;
 }
 .reminder{
     margin-top: 75px;
+}
+* {box-sizing: border-box} /*?*/
+
+.slideshow-container{
+    max-width: 1000px;
+    position:relative;
+    margin: auto;
+}
+.mySlides{
+    display:none;
+} /* hides images by default*/
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    width:auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #ADD8E6;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 0.6s ease; /*?*/
+    border-radius: 0 3px 3px 0
+    user-select: none; /*?*/
+}
+
+.next{
+    right:0;
+    border-radius: 3px 0 0 3px;
+} /* Position the "next button" to the right */
+
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8); /* change color */
+    
+}
+
+.text{
+    color: black; /*change color*/
+    font-size: 16px;
+    padding: 7px 11px;
+    position: absolute;
+    top:0;
+}
+
+.dot{
+    cursor: pointer;
+    height:16px;
+    width:16px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{ /* frames?*/
+    from{opacity: .6}
+    to{opacity: 1}
+}
+@keyframes fade{
+    from{opacity: .6}
+    to {opacity: 1}
 }
