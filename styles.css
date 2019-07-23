@@ -81,7 +81,8 @@ color: 	#ADD8E6;
     margin-left: 400px;
 }
 .about_text {
-    
+  font-family: FreeMono, monospace;
+font-weight: 300;
 }
 
 a:link {
